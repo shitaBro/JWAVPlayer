@@ -7,58 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63C2B2911DD842B100DAFD93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C2B2901DD842B100DAFD93 /* main.m */; };
-		63C2B2941DD842B100DAFD93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C2B2931DD842B100DAFD93 /* AppDelegate.m */; };
-		63C2B2971DD842B100DAFD93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C2B2961DD842B100DAFD93 /* ViewController.m */; };
-		63C2B29A1DD842B100DAFD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2981DD842B100DAFD93 /* Main.storyboard */; };
-		63C2B29C1DD842B100DAFD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B29B1DD842B100DAFD93 /* Assets.xcassets */; };
-		63C2B29F1DD842B100DAFD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B29D1DD842B100DAFD93 /* LaunchScreen.storyboard */; };
-		63C2B2B91DD8453F00DAFD93 /* MoviePlayer_Full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2AD1DD8453F00DAFD93 /* MoviePlayer_Full@2x.png */; };
-		63C2B2BA1DD8453F00DAFD93 /* MoviePlayer_Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2AE1DD8453F00DAFD93 /* MoviePlayer_Play@2x.png */; };
-		63C2B2BB1DD8453F00DAFD93 /* MoviePlayer_Play_Big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2AF1DD8453F00DAFD93 /* MoviePlayer_Play_Big@2x.png */; };
-		63C2B2BC1DD8453F00DAFD93 /* MoviePlayer_Slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2B01DD8453F00DAFD93 /* MoviePlayer_Slider@2x.png */; };
-		63C2B2BD1DD8453F00DAFD93 /* MoviePlayer_Stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2B11DD8453F00DAFD93 /* MoviePlayer_Stop@2x.png */; };
-		63C2B2BE1DD8453F00DAFD93 /* MoviePlayer_Stop_Big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2B21DD8453F00DAFD93 /* MoviePlayer_Stop_Big@2x.png */; };
-		63C2B2BF1DD8453F00DAFD93 /* MoviePlayer_小屏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2B31DD8453F00DAFD93 /* MoviePlayer_小屏@2x.png */; };
-		63C2B2C01DD8453F00DAFD93 /* MoviePlayer_已锁@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2B41DD8453F00DAFD93 /* MoviePlayer_已锁@2x.png */; };
-		63C2B2C11DD8453F00DAFD93 /* MoviePlayer_快进@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2B51DD8453F00DAFD93 /* MoviePlayer_快进@2x.png */; };
-		63C2B2C21DD8453F00DAFD93 /* MoviePlayer_快退@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2B61DD8453F00DAFD93 /* MoviePlayer_快退@2x.png */; };
-		63C2B2C31DD8453F00DAFD93 /* MoviePlayer_锁屏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2B71DD8453F00DAFD93 /* MoviePlayer_锁屏@2x.png */; };
-		63C2B2C41DD8453F00DAFD93 /* Player_后退@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2B81DD8453F00DAFD93 /* Player_后退@2x.png */; };
-		63C2B2C71DD84D8600DAFD93 /* JWPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C2B2C61DD84D8600DAFD93 /* JWPlayer.m */; };
-		63C2B2C91DD84EE900DAFD93 /* JWPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C2B2C81DD84EE900DAFD93 /* JWPlayer.xib */; };
+		63C2B2CC1DD88A6700DAFD93 /* JWFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C2B2CB1DD88A6700DAFD93 /* JWFullViewController.m */; };
+		63EA03F11DD70495009CAA10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA03F01DD70495009CAA10 /* main.m */; };
+		63EA03F41DD70495009CAA10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA03F31DD70495009CAA10 /* AppDelegate.m */; };
+		63EA03F71DD70495009CAA10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA03F61DD70495009CAA10 /* ViewController.m */; };
+		63EA03FA1DD70495009CAA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EA03F81DD70495009CAA10 /* Main.storyboard */; };
+		63EA03FC1DD70495009CAA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EA03FB1DD70495009CAA10 /* Assets.xcassets */; };
+		63EA03FF1DD70495009CAA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EA03FD1DD70495009CAA10 /* LaunchScreen.storyboard */; };
+		63EA04191DD70762009CAA10 /* MoviePlayer_Full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EA040D1DD70762009CAA10 /* MoviePlayer_Full@2x.png */; };
+		63EA041A1DD70762009CAA10 /* MoviePlayer_Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EA040E1DD70762009CAA10 /* MoviePlayer_Play@2x.png */; };
+		63EA041B1DD70762009CAA10 /* MoviePlayer_Play_Big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EA040F1DD70762009CAA10 /* MoviePlayer_Play_Big@2x.png */; };
+		63EA041C1DD70762009CAA10 /* MoviePlayer_Slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EA04101DD70762009CAA10 /* MoviePlayer_Slider@2x.png */; };
+		63EA041D1DD70762009CAA10 /* MoviePlayer_Stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EA04111DD70762009CAA10 /* MoviePlayer_Stop@2x.png */; };
+		63EA041E1DD70762009CAA10 /* MoviePlayer_Stop_Big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EA04121DD70762009CAA10 /* MoviePlayer_Stop_Big@2x.png */; };
+		63EA041F1DD70762009CAA10 /* MoviePlayer_小屏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EA04131DD70762009CAA10 /* MoviePlayer_小屏@2x.png */; };
+		63EA04241DD70762009CAA10 /* Player_后退@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EA04181DD70762009CAA10 /* Player_后退@2x.png */; };
+		63EA04271DD70786009CAA10 /* JWPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA04261DD70786009CAA10 /* JWPlayer.m */; };
+		63EA04291DD7079C009CAA10 /* JWPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63EA04281DD7079C009CAA10 /* JWPlayer.xib */; };
+		63EA042C1DD70FAF009CAA10 /* UIDevice+JWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA042B1DD70FAF009CAA10 /* UIDevice+JWDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		63C2B28C1DD842B100DAFD93 /* JWPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63C2B2901DD842B100DAFD93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63C2B2921DD842B100DAFD93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		63C2B2931DD842B100DAFD93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		63C2B2951DD842B100DAFD93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63C2B2961DD842B100DAFD93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		63C2B2991DD842B100DAFD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63C2B29B1DD842B100DAFD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63C2B29E1DD842B100DAFD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		63C2B2A01DD842B100DAFD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63C2B2AD1DD8453F00DAFD93 /* MoviePlayer_Full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Full@2x.png"; sourceTree = "<group>"; };
-		63C2B2AE1DD8453F00DAFD93 /* MoviePlayer_Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Play@2x.png"; sourceTree = "<group>"; };
-		63C2B2AF1DD8453F00DAFD93 /* MoviePlayer_Play_Big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Play_Big@2x.png"; sourceTree = "<group>"; };
-		63C2B2B01DD8453F00DAFD93 /* MoviePlayer_Slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Slider@2x.png"; sourceTree = "<group>"; };
-		63C2B2B11DD8453F00DAFD93 /* MoviePlayer_Stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Stop@2x.png"; sourceTree = "<group>"; };
-		63C2B2B21DD8453F00DAFD93 /* MoviePlayer_Stop_Big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Stop_Big@2x.png"; sourceTree = "<group>"; };
-		63C2B2B31DD8453F00DAFD93 /* MoviePlayer_小屏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_小屏@2x.png"; sourceTree = "<group>"; };
-		63C2B2B41DD8453F00DAFD93 /* MoviePlayer_已锁@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_已锁@2x.png"; sourceTree = "<group>"; };
-		63C2B2B51DD8453F00DAFD93 /* MoviePlayer_快进@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_快进@2x.png"; sourceTree = "<group>"; };
-		63C2B2B61DD8453F00DAFD93 /* MoviePlayer_快退@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_快退@2x.png"; sourceTree = "<group>"; };
-		63C2B2B71DD8453F00DAFD93 /* MoviePlayer_锁屏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_锁屏@2x.png"; sourceTree = "<group>"; };
-		63C2B2B81DD8453F00DAFD93 /* Player_后退@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player_后退@2x.png"; sourceTree = "<group>"; };
-		63C2B2C51DD84D8600DAFD93 /* JWPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPlayer.h; sourceTree = "<group>"; };
-		63C2B2C61DD84D8600DAFD93 /* JWPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPlayer.m; sourceTree = "<group>"; };
-		63C2B2C81DD84EE900DAFD93 /* JWPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWPlayer.xib; sourceTree = "<group>"; };
+		63C2B2CA1DD88A6700DAFD93 /* JWFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWFullViewController.h; sourceTree = "<group>"; };
+		63C2B2CB1DD88A6700DAFD93 /* JWFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWFullViewController.m; sourceTree = "<group>"; };
+		63EA03EC1DD70495009CAA10 /* JWPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EA03F01DD70495009CAA10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63EA03F21DD70495009CAA10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63EA03F31DD70495009CAA10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63EA03F51DD70495009CAA10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63EA03F61DD70495009CAA10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63EA03F91DD70495009CAA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63EA03FB1DD70495009CAA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63EA03FE1DD70495009CAA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63EA04001DD70495009CAA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EA040D1DD70762009CAA10 /* MoviePlayer_Full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Full@2x.png"; sourceTree = "<group>"; };
+		63EA040E1DD70762009CAA10 /* MoviePlayer_Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Play@2x.png"; sourceTree = "<group>"; };
+		63EA040F1DD70762009CAA10 /* MoviePlayer_Play_Big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Play_Big@2x.png"; sourceTree = "<group>"; };
+		63EA04101DD70762009CAA10 /* MoviePlayer_Slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Slider@2x.png"; sourceTree = "<group>"; };
+		63EA04111DD70762009CAA10 /* MoviePlayer_Stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Stop@2x.png"; sourceTree = "<group>"; };
+		63EA04121DD70762009CAA10 /* MoviePlayer_Stop_Big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_Stop_Big@2x.png"; sourceTree = "<group>"; };
+		63EA04131DD70762009CAA10 /* MoviePlayer_小屏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoviePlayer_小屏@2x.png"; sourceTree = "<group>"; };
+		63EA04181DD70762009CAA10 /* Player_后退@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player_后退@2x.png"; sourceTree = "<group>"; };
+		63EA04251DD70786009CAA10 /* JWPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPlayer.h; sourceTree = "<group>"; };
+		63EA04261DD70786009CAA10 /* JWPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPlayer.m; sourceTree = "<group>"; };
+		63EA04281DD7079C009CAA10 /* JWPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWPlayer.xib; sourceTree = "<group>"; };
+		63EA042A1DD70FAF009CAA10 /* UIDevice+JWDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JWDevice.h"; sourceTree = "<group>"; };
+		63EA042B1DD70FAF009CAA10 /* UIDevice+JWDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JWDevice.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63C2B2891DD842B100DAFD93 /* Frameworks */ = {
+		63EA03E91DD70495009CAA10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,73 +66,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63C2B2831DD842B000DAFD93 = {
+		63EA03E31DD70495009CAA10 = {
 			isa = PBXGroup;
 			children = (
-				63C2B28E1DD842B100DAFD93 /* JWPlayer */,
-				63C2B28D1DD842B100DAFD93 /* Products */,
+				63EA03EE1DD70495009CAA10 /* JWPlayer */,
+				63EA03ED1DD70495009CAA10 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		63C2B28D1DD842B100DAFD93 /* Products */ = {
+		63EA03ED1DD70495009CAA10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63C2B28C1DD842B100DAFD93 /* JWPlayer.app */,
+				63EA03EC1DD70495009CAA10 /* JWPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63C2B28E1DD842B100DAFD93 /* JWPlayer */ = {
+		63EA03EE1DD70495009CAA10 /* JWPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				63C2B2A61DD842D100DAFD93 /* player */,
-				63C2B2921DD842B100DAFD93 /* AppDelegate.h */,
-				63C2B2931DD842B100DAFD93 /* AppDelegate.m */,
-				63C2B2951DD842B100DAFD93 /* ViewController.h */,
-				63C2B2961DD842B100DAFD93 /* ViewController.m */,
-				63C2B2981DD842B100DAFD93 /* Main.storyboard */,
-				63C2B29B1DD842B100DAFD93 /* Assets.xcassets */,
-				63C2B29D1DD842B100DAFD93 /* LaunchScreen.storyboard */,
-				63C2B2A01DD842B100DAFD93 /* Info.plist */,
-				63C2B28F1DD842B100DAFD93 /* Supporting Files */,
+				63EA040B1DD70762009CAA10 /* JWPlayer */,
+				63EA03F21DD70495009CAA10 /* AppDelegate.h */,
+				63EA03F31DD70495009CAA10 /* AppDelegate.m */,
+				63EA03F51DD70495009CAA10 /* ViewController.h */,
+				63EA03F61DD70495009CAA10 /* ViewController.m */,
+				63EA03F81DD70495009CAA10 /* Main.storyboard */,
+				63EA03FB1DD70495009CAA10 /* Assets.xcassets */,
+				63EA03FD1DD70495009CAA10 /* LaunchScreen.storyboard */,
+				63EA04001DD70495009CAA10 /* Info.plist */,
+				63EA03EF1DD70495009CAA10 /* Supporting Files */,
 			);
 			path = JWPlayer;
 			sourceTree = "<group>";
 		};
-		63C2B28F1DD842B100DAFD93 /* Supporting Files */ = {
+		63EA03EF1DD70495009CAA10 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				63C2B2901DD842B100DAFD93 /* main.m */,
+				63EA03F01DD70495009CAA10 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		63C2B2A61DD842D100DAFD93 /* player */ = {
+		63EA040B1DD70762009CAA10 /* JWPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				63C2B2AC1DD8453F00DAFD93 /* Image */,
-				63C2B2C51DD84D8600DAFD93 /* JWPlayer.h */,
-				63C2B2C61DD84D8600DAFD93 /* JWPlayer.m */,
-				63C2B2C81DD84EE900DAFD93 /* JWPlayer.xib */,
+				63EA042A1DD70FAF009CAA10 /* UIDevice+JWDevice.h */,
+				63EA042B1DD70FAF009CAA10 /* UIDevice+JWDevice.m */,
+				63C2B2CA1DD88A6700DAFD93 /* JWFullViewController.h */,
+				63C2B2CB1DD88A6700DAFD93 /* JWFullViewController.m */,
+				63EA040C1DD70762009CAA10 /* Image */,
+				63EA04251DD70786009CAA10 /* JWPlayer.h */,
+				63EA04261DD70786009CAA10 /* JWPlayer.m */,
+				63EA04281DD7079C009CAA10 /* JWPlayer.xib */,
 			);
-			path = player;
+			path = JWPlayer;
 			sourceTree = "<group>";
 		};
-		63C2B2AC1DD8453F00DAFD93 /* Image */ = {
+		63EA040C1DD70762009CAA10 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				63C2B2AD1DD8453F00DAFD93 /* MoviePlayer_Full@2x.png */,
-				63C2B2AE1DD8453F00DAFD93 /* MoviePlayer_Play@2x.png */,
-				63C2B2AF1DD8453F00DAFD93 /* MoviePlayer_Play_Big@2x.png */,
-				63C2B2B01DD8453F00DAFD93 /* MoviePlayer_Slider@2x.png */,
-				63C2B2B11DD8453F00DAFD93 /* MoviePlayer_Stop@2x.png */,
-				63C2B2B21DD8453F00DAFD93 /* MoviePlayer_Stop_Big@2x.png */,
-				63C2B2B31DD8453F00DAFD93 /* MoviePlayer_小屏@2x.png */,
-				63C2B2B41DD8453F00DAFD93 /* MoviePlayer_已锁@2x.png */,
-				63C2B2B51DD8453F00DAFD93 /* MoviePlayer_快进@2x.png */,
-				63C2B2B61DD8453F00DAFD93 /* MoviePlayer_快退@2x.png */,
-				63C2B2B71DD8453F00DAFD93 /* MoviePlayer_锁屏@2x.png */,
-				63C2B2B81DD8453F00DAFD93 /* Player_后退@2x.png */,
+				63EA040D1DD70762009CAA10 /* MoviePlayer_Full@2x.png */,
+				63EA040E1DD70762009CAA10 /* MoviePlayer_Play@2x.png */,
+				63EA040F1DD70762009CAA10 /* MoviePlayer_Play_Big@2x.png */,
+				63EA04101DD70762009CAA10 /* MoviePlayer_Slider@2x.png */,
+				63EA04111DD70762009CAA10 /* MoviePlayer_Stop@2x.png */,
+				63EA04121DD70762009CAA10 /* MoviePlayer_Stop_Big@2x.png */,
+				63EA04131DD70762009CAA10 /* MoviePlayer_小屏@2x.png */,
+				63EA04181DD70762009CAA10 /* Player_后退@2x.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -142,13 +140,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63C2B28B1DD842B100DAFD93 /* JWPlayer */ = {
+		63EA03EB1DD70495009CAA10 /* JWPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63C2B2A31DD842B100DAFD93 /* Build configuration list for PBXNativeTarget "JWPlayer" */;
+			buildConfigurationList = 63EA04031DD70495009CAA10 /* Build configuration list for PBXNativeTarget "JWPlayer" */;
 			buildPhases = (
-				63C2B2881DD842B100DAFD93 /* Sources */,
-				63C2B2891DD842B100DAFD93 /* Frameworks */,
-				63C2B28A1DD842B100DAFD93 /* Resources */,
+				63EA03E81DD70495009CAA10 /* Sources */,
+				63EA03E91DD70495009CAA10 /* Frameworks */,
+				63EA03EA1DD70495009CAA10 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -156,26 +154,26 @@
 			);
 			name = JWPlayer;
 			productName = JWPlayer;
-			productReference = 63C2B28C1DD842B100DAFD93 /* JWPlayer.app */;
+			productReference = 63EA03EC1DD70495009CAA10 /* JWPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63C2B2841DD842B000DAFD93 /* Project object */ = {
+		63EA03E41DD70495009CAA10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "jarvis jiangjjw";
 				TargetAttributes = {
-					63C2B28B1DD842B100DAFD93 = {
+					63EA03EB1DD70495009CAA10 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 53MXMBD5Y9;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 63C2B2871DD842B000DAFD93 /* Build configuration list for PBXProject "JWPlayer" */;
+			buildConfigurationList = 63EA03E71DD70495009CAA10 /* Build configuration list for PBXProject "JWPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,69 +181,67 @@
 				en,
 				Base,
 			);
-			mainGroup = 63C2B2831DD842B000DAFD93;
-			productRefGroup = 63C2B28D1DD842B100DAFD93 /* Products */;
+			mainGroup = 63EA03E31DD70495009CAA10;
+			productRefGroup = 63EA03ED1DD70495009CAA10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63C2B28B1DD842B100DAFD93 /* JWPlayer */,
+				63EA03EB1DD70495009CAA10 /* JWPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63C2B28A1DD842B100DAFD93 /* Resources */ = {
+		63EA03EA1DD70495009CAA10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C2B29F1DD842B100DAFD93 /* LaunchScreen.storyboard in Resources */,
-				63C2B2BF1DD8453F00DAFD93 /* MoviePlayer_小屏@2x.png in Resources */,
-				63C2B29C1DD842B100DAFD93 /* Assets.xcassets in Resources */,
-				63C2B2C11DD8453F00DAFD93 /* MoviePlayer_快进@2x.png in Resources */,
-				63C2B2BA1DD8453F00DAFD93 /* MoviePlayer_Play@2x.png in Resources */,
-				63C2B2B91DD8453F00DAFD93 /* MoviePlayer_Full@2x.png in Resources */,
-				63C2B29A1DD842B100DAFD93 /* Main.storyboard in Resources */,
-				63C2B2C41DD8453F00DAFD93 /* Player_后退@2x.png in Resources */,
-				63C2B2BC1DD8453F00DAFD93 /* MoviePlayer_Slider@2x.png in Resources */,
-				63C2B2C31DD8453F00DAFD93 /* MoviePlayer_锁屏@2x.png in Resources */,
-				63C2B2BB1DD8453F00DAFD93 /* MoviePlayer_Play_Big@2x.png in Resources */,
-				63C2B2C91DD84EE900DAFD93 /* JWPlayer.xib in Resources */,
-				63C2B2C01DD8453F00DAFD93 /* MoviePlayer_已锁@2x.png in Resources */,
-				63C2B2BD1DD8453F00DAFD93 /* MoviePlayer_Stop@2x.png in Resources */,
-				63C2B2BE1DD8453F00DAFD93 /* MoviePlayer_Stop_Big@2x.png in Resources */,
-				63C2B2C21DD8453F00DAFD93 /* MoviePlayer_快退@2x.png in Resources */,
+				63EA03FF1DD70495009CAA10 /* LaunchScreen.storyboard in Resources */,
+				63EA03FC1DD70495009CAA10 /* Assets.xcassets in Resources */,
+				63EA041C1DD70762009CAA10 /* MoviePlayer_Slider@2x.png in Resources */,
+				63EA041E1DD70762009CAA10 /* MoviePlayer_Stop_Big@2x.png in Resources */,
+				63EA041F1DD70762009CAA10 /* MoviePlayer_小屏@2x.png in Resources */,
+				63EA041A1DD70762009CAA10 /* MoviePlayer_Play@2x.png in Resources */,
+				63EA03FA1DD70495009CAA10 /* Main.storyboard in Resources */,
+				63EA04291DD7079C009CAA10 /* JWPlayer.xib in Resources */,
+				63EA04191DD70762009CAA10 /* MoviePlayer_Full@2x.png in Resources */,
+				63EA041D1DD70762009CAA10 /* MoviePlayer_Stop@2x.png in Resources */,
+				63EA041B1DD70762009CAA10 /* MoviePlayer_Play_Big@2x.png in Resources */,
+				63EA04241DD70762009CAA10 /* Player_后退@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63C2B2881DD842B100DAFD93 /* Sources */ = {
+		63EA03E81DD70495009CAA10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C2B2971DD842B100DAFD93 /* ViewController.m in Sources */,
-				63C2B2941DD842B100DAFD93 /* AppDelegate.m in Sources */,
-				63C2B2911DD842B100DAFD93 /* main.m in Sources */,
-				63C2B2C71DD84D8600DAFD93 /* JWPlayer.m in Sources */,
+				63EA03F71DD70495009CAA10 /* ViewController.m in Sources */,
+				63EA03F41DD70495009CAA10 /* AppDelegate.m in Sources */,
+				63EA042C1DD70FAF009CAA10 /* UIDevice+JWDevice.m in Sources */,
+				63EA03F11DD70495009CAA10 /* main.m in Sources */,
+				63C2B2CC1DD88A6700DAFD93 /* JWFullViewController.m in Sources */,
+				63EA04271DD70786009CAA10 /* JWPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		63C2B2981DD842B100DAFD93 /* Main.storyboard */ = {
+		63EA03F81DD70495009CAA10 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63C2B2991DD842B100DAFD93 /* Base */,
+				63EA03F91DD70495009CAA10 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		63C2B29D1DD842B100DAFD93 /* LaunchScreen.storyboard */ = {
+		63EA03FD1DD70495009CAA10 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63C2B29E1DD842B100DAFD93 /* Base */,
+				63EA03FE1DD70495009CAA10 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -253,7 +249,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		63C2B2A11DD842B100DAFD93 /* Debug */ = {
+		63EA04011DD70495009CAA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		63C2B2A21DD842B100DAFD93 /* Release */ = {
+		63EA04021DD70495009CAA10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,7 +337,7 @@
 			};
 			name = Release;
 		};
-		63C2B2A41DD842B100DAFD93 /* Debug */ = {
+		63EA04041DD70495009CAA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -353,7 +349,7 @@
 			};
 			name = Debug;
 		};
-		63C2B2A51DD842B100DAFD93 /* Release */ = {
+		63EA04051DD70495009CAA10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -368,24 +364,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63C2B2871DD842B000DAFD93 /* Build configuration list for PBXProject "JWPlayer" */ = {
+		63EA03E71DD70495009CAA10 /* Build configuration list for PBXProject "JWPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63C2B2A11DD842B100DAFD93 /* Debug */,
-				63C2B2A21DD842B100DAFD93 /* Release */,
+				63EA04011DD70495009CAA10 /* Debug */,
+				63EA04021DD70495009CAA10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63C2B2A31DD842B100DAFD93 /* Build configuration list for PBXNativeTarget "JWPlayer" */ = {
+		63EA04031DD70495009CAA10 /* Build configuration list for PBXNativeTarget "JWPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63C2B2A41DD842B100DAFD93 /* Debug */,
-				63C2B2A51DD842B100DAFD93 /* Release */,
+				63EA04041DD70495009CAA10 /* Debug */,
+				63EA04051DD70495009CAA10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63C2B2841DD842B000DAFD93 /* Project object */;
+	rootObject = 63EA03E41DD70495009CAA10 /* Project object */;
 }

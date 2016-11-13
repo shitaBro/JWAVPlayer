@@ -2,7 +2,7 @@
 //  main.m
 //  JWPlayer
 //
-//  Created by jarvis on 2016/11/13.
+//  Created by jarvis on 2016/11/12.
 //  Copyright © 2016年 jarvis jiangjjw. All rights reserved.
 //
 

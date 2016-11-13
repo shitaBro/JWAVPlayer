@@ -1,5 +1,5 @@
 //
-//  JWPlayer.h
+//  JWFullViewController.h
 //  JWPlayer
 //
 //  Created by jarvis on 2016/11/13.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JWPlayer : UIView
-@property(nonatomic,copy)NSString*videoUrl;
-@property(nonatomic,assign)BOOL isPlaying;
+@interface JWFullViewController : UIViewController
+
 @end
