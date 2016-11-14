@@ -18,15 +18,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-//- (NSUInteger)supportedInterfaceOrientations
-//{
-//    return UIInterfaceOrientationLandscapeLeft;
-//}
-//
-//- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
-//{
-//    return YES;
-//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
