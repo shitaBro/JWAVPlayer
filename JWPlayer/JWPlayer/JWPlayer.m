@@ -262,6 +262,7 @@
             [self.fullVC dismissViewControllerAnimated:NO completion:^{
                 
                 [_oldView addSubview:self];
+                [self setPortraitLayout];
 
             }];
         }else{
@@ -274,6 +275,7 @@
         if (_SuperVC!=nil) {
             [_SuperVC presentViewController:self.fullVC animated:NO completion:^{
                 [self.fullVC.view addSubview:self];
+                [self setlandscapeLayout];
 
             }];
         }else{
