@@ -18,6 +18,7 @@
     AVPlayerLayer *_playerLayer;
     id _playTimeObserver; // 播放进度观察者
     UIActivityIndicatorView*loadActivity;
+    BOOL isFull;
 }
 @property (weak, nonatomic) IBOutlet UIView *playerView;
 @property (weak, nonatomic) IBOutlet UIView *downView;
@@ -256,7 +257,7 @@
 }
 - (IBAction)rotationChanged:(id)sender {
     [self chickToolBar];
-    if ([UIDevice isOrientationLandscape]) {
+    if (isFull) {
         [UIDevice setOrientation:UIInterfaceOrientationPortrait];
         if (self.SuperVC!=nil) {
             [self.fullVC dismissViewControllerAnimated:NO completion:^{
@@ -268,7 +269,7 @@
         }else{
             [self setPortraitLayout];
         }
-        
+        isFull=NO;
         
     }else{
         [UIDevice setOrientation:UIInterfaceOrientationLandscapeRight];
@@ -281,6 +282,7 @@
         }else{
                 [self setlandscapeLayout]; 
         }
+        isFull=YES;
         
     }
 }
