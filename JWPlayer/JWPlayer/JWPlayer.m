@@ -32,6 +32,8 @@
 @property(nonatomic,strong)UIView*oldView;
 @property(nonatomic,strong)UIViewController*SuperVC;
 @property(nonatomic,strong)JWFullViewController*fullVC;
+@property (nonatomic, strong) CADisplayLink *link;//以屏幕刷新率进行定时操作
+@property (nonatomic, assign) NSTimeInterval lastTime;
 @end
 @implementation JWPlayer
 -(void)awakeFromNib
@@ -53,7 +55,6 @@
         _playerLayer = [AVPlayerLayer playerLayerWithPlayer:_player];
         [self.playerView.layer addSublayer:_playerLayer];
         loadActivity=[[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
-        loadActivity.center=self.center;
         [self addSubview:loadActivity];
        
     }
@@ -82,6 +83,7 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     _playerLayer.frame = self.bounds;
+    loadActivity.center=self.center;
 }
 - (void)updatePlayerWith:(NSURL *)url{
     _playerItem = [AVPlayerItem playerItemWithURL:url];
@@ -104,8 +106,8 @@
     // 后台&前台通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(enterForegroundNotification) name:UIApplicationWillEnterForegroundNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(resignActiveNotification) name:UIApplicationDidEnterBackgroundNotification object:nil];
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(loadedReady:) name:AVPlayerItemNewAccessLogEntryNotification object:nil];
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(loadUp:) name:AVPlayerItemPlaybackStalledNotification object:nil];
+//    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(loadedReady:) name:AVPlayerItemNewAccessLogEntryNotification object:nil];
+//    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(loadUp:) name:AVPlayerItemPlaybackStalledNotification object:nil];
 }
 -(void)loadedReady:(NSNotification*)noti
 {
@@ -356,6 +358,22 @@
     _isPlaying = YES;
     [_player play];
     [self.playBtn  setImage:[UIImage imageNamed:@"MoviePlayer_Play"] forState:UIControlStateNormal];
+    if (!self.link) {
+        self.link = [CADisplayLink displayLinkWithTarget:self selector:@selector(upadte)];//和屏幕频率刷新相同的定时器
+        [self.link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+    }
+}
+//刷新，看播放是否卡顿
+- (void)upadte
+{
+    NSTimeInterval current = CMTimeGetSeconds(_player.currentTime);
+    if (current == self.lastTime) {
+        //卡顿
+        [loadActivity startAnimating];
+    }else{//没有卡顿
+        [loadActivity stopAnimating];
+    }
+    self.lastTime = current;
 }
 
 - (void)pause{
