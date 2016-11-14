@@ -13,7 +13,7 @@
 ```
 
 ## 在tableview上的使用
-``` javascript
+```python
  UITableViewCell*cell=[tableView dequeueReusableCellWithIdentifier:@"cell"];
  if (!cell) {
  cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
