@@ -25,7 +25,7 @@
 		63EA04271DD70786009CAA10 /* JWPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA04261DD70786009CAA10 /* JWPlayer.m */; };
 		63EA04291DD7079C009CAA10 /* JWPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63EA04281DD7079C009CAA10 /* JWPlayer.xib */; };
 		63EA042C1DD70FAF009CAA10 /* UIDevice+JWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EA042B1DD70FAF009CAA10 /* UIDevice+JWDevice.m */; };
-		63F34FBD1DDADB1400E51D39 /* 屏幕快照 2016-11-15 下午1.56.07.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F34FBC1DDADB1400E51D39 /* 屏幕快照 2016-11-15 下午1.56.07.png */; };
+		63F34FBF1DDADD8600E51D39 /* 屏幕快照 2016-11-15 下午2.05.33.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F34FBE1DDADD8600E51D39 /* 屏幕快照 2016-11-15 下午2.05.33.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +54,7 @@
 		63EA04281DD7079C009CAA10 /* JWPlayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWPlayer.xib; sourceTree = "<group>"; };
 		63EA042A1DD70FAF009CAA10 /* UIDevice+JWDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JWDevice.h"; sourceTree = "<group>"; };
 		63EA042B1DD70FAF009CAA10 /* UIDevice+JWDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JWDevice.m"; sourceTree = "<group>"; };
-		63F34FBC1DDADB1400E51D39 /* 屏幕快照 2016-11-15 下午1.56.07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-11-15 下午1.56.07.png"; sourceTree = "<group>"; };
+		63F34FBE1DDADD8600E51D39 /* 屏幕快照 2016-11-15 下午2.05.33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-11-15 下午2.05.33.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 				63EA03F31DD70495009CAA10 /* AppDelegate.m */,
 				63EA03F51DD70495009CAA10 /* ViewController.h */,
 				63EA03F61DD70495009CAA10 /* ViewController.m */,
-				63F34FBC1DDADB1400E51D39 /* 屏幕快照 2016-11-15 下午1.56.07.png */,
+				63F34FBE1DDADD8600E51D39 /* 屏幕快照 2016-11-15 下午2.05.33.png */,
 				63EA03F81DD70495009CAA10 /* Main.storyboard */,
 				63EA03FB1DD70495009CAA10 /* Assets.xcassets */,
 				63EA03FD1DD70495009CAA10 /* LaunchScreen.storyboard */,
@@ -204,9 +204,9 @@
 				63EA041C1DD70762009CAA10 /* MoviePlayer_Slider@2x.png in Resources */,
 				63EA041E1DD70762009CAA10 /* MoviePlayer_Stop_Big@2x.png in Resources */,
 				63EA041F1DD70762009CAA10 /* MoviePlayer_小屏@2x.png in Resources */,
-				63F34FBD1DDADB1400E51D39 /* 屏幕快照 2016-11-15 下午1.56.07.png in Resources */,
 				63EA041A1DD70762009CAA10 /* MoviePlayer_Play@2x.png in Resources */,
 				63EA03FA1DD70495009CAA10 /* Main.storyboard in Resources */,
+				63F34FBF1DDADD8600E51D39 /* 屏幕快照 2016-11-15 下午2.05.33.png in Resources */,
 				63EA04291DD7079C009CAA10 /* JWPlayer.xib in Resources */,
 				63EA04191DD70762009CAA10 /* MoviePlayer_Full@2x.png in Resources */,
 				63EA041D1DD70762009CAA10 /* MoviePlayer_Stop@2x.png in Resources */,
