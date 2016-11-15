@@ -26,3 +26,4 @@
  [player showInSuperView:view andSuperVC:self];
 
 ```
+![img](https://github.com/JarvisHot/JWAVPlayer/blob/master/JWPlayer/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-15%20%E4%B8%8B%E5%8D%882.05.33.png)
