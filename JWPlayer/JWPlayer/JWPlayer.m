@@ -124,6 +124,8 @@
     _playerItem = [notification object];
     [_playerItem seekToTime:kCMTimeZero];
     [self pause];
+    [self.link invalidate];
+    
 }
 
 #pragma mark - KVO - status
@@ -380,6 +382,9 @@
     _isPlaying = NO;
     [_player pause];
     [self.playBtn  setImage:[UIImage imageNamed:@"MoviePlayer_Stop"] forState:UIControlStateNormal];
+    [loadActivity stopAnimating];
+    
+    
 }
 /*
 // Only override drawRect: if you perform custom drawing.
